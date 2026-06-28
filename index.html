@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfólio e Brag Document de Matheus Mendes. Engenheiro de Software Sênior e Engenheiro de IA Aplicada especializado em backend escalável, sistemas orientados a eventos e agentes inteligentes.">
+  <meta name="keywords"
+    content="Matheus Mendes, Engenheiro de Software, Backend, NestJS, Node.js, AWS, Kafka, IA, LangGraph, RAG, Serverless">
+  <meta name="author" content="Matheus Mendes">
+
+  <!-- Open Graph / SEO Social -->
+  <meta property="og:title" content="Matheus Mendes | Senior Backend & Applied AI Engineer">
+  <meta property="og:description"
+    content="Explore o portfólio profissional de Matheus Mendes. Contribuições técnicas significativas em sistemas distribuídos e inteligência artificial aplicada.">
+  <meta property="og:type" content="website">
+
+  <title>Matheus Mendes | Início</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" id="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo" aria-label="Matheus Mendes Homepage">
+        Matheus Mendes<span class="logo-dot">.</span>
+      </a>
+
+      <!-- NAV MENU -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Menu Principal">
+        <a href="index.html" class="nav-link active">Início</a>
+        <a href="sobre.html" class="nav-link">Sobre Mim</a>
+        <a href="projetos.html" class="nav-link">Brag Document</a>
+        <a href="contato.html" class="nav-link">Contato</a>
+      </nav>
+
+      <!-- NAV ACTIONS -->
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema escuro/claro" title="Alternar tema">
+          <!-- Moon Icon (Dark Mode toggle) -->
+          <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <!-- Sun Icon (Light Mode toggle) -->
+          <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <!-- Hamburger menu toggle -->
+        <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-label="Abrir menu de navegação">
+          <span class="menu-toggle-box">
+            <span class="menu-toggle-inner"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <section class="hero section-padding" aria-label="Introdução do profissional">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge" id="hero-role-badge">Engenharia de Software & IA</div>
+          <h1 class="hero-title" id="hero-heading">
+            Desenvolvendo sistemas robustos, escaláveis e <span>orientados a valor</span>
+          </h1>
+          <p class="hero-subtitle">
+            Olá, eu sou <strong>Matheus Mendes</strong>. Atuo há mais de 5 anos desenhando arquiteturas backend
+            modernas, microsserviços orientados a eventos (Kafka) e integrando engenharia de inteligência artificial
+            (LangGraph, RAG e agentes autônomos) para resolver problemas complexos do mundo real.
+          </p>
+          <div class="hero-actions">
+            <a href="contato.html" class="btn btn-primary btn-lg" id="btn-hero-contact">Falar com Matheus</a>
+            <a href="projetos.html" class="btn btn-secondary btn-lg" id="btn-hero-projects">Explorar Projetos</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-shapes">
+            <div class="shape-bg"></div>
+            <!-- Floating Preview Card -->
+            <div class="profile-card" id="profile-hover-card">
+              <div class="profile-header">
+                <div class="profile-avatar-placeholder" aria-hidden="true">MM</div>
+                <div class="profile-meta">
+                  <h4>Matheus Mendes</h4>
+                  <p>Senior Backend Engineer</p>
+                </div>
+              </div>
+              <div class="profile-stats-mini">
+                <div class="stat-item-mini">
+                  <h5>+5 anos</h5>
+                  <p>Experiência</p>
+                </div>
+                <div class="stat-item-mini">
+                  <h5>AWS/Kafka</h5>
+                  <p>Stack Core</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- METRICS SECTION (BRAG SUMMARY) -->
+    <section class="metrics-section" aria-label="Métricas de impacto e resultados">
+      <div class="container">
+        <div class="metrics-grid">
+
+          <div class="metric-card" id="metric-microsservicos">
+            <span class="metric-number">+20 para 5</span>
+            <p class="metric-label">Consolidação de Serviços</p>
+            <p class="metric-desc">Redução drástica de complexidade e latência na arquitetura eSIM whitelabel.</p>
+          </div>
+
+          <div class="metric-card" id="metric-serverless">
+            <span class="metric-number">100%</span>
+            <p class="metric-label">Serverless & Baixo Custo</p>
+            <p class="metric-desc">Backend de seguros estruturado em AWS Lambda e DynamoDB com alta resiliência.</p>
+          </div>
+
+          <div class="metric-card" id="metric-ia">
+            <span class="metric-number">Zero</span>
+            <p class="metric-label">Alucinações de IA</p>
+            <p class="metric-desc">Orquestração de catálogo real com pgvector e busca híbrida de alta performance.</p>
+          </div>
+
+          <div class="metric-card" id="metric-formacao">
+            <span class="metric-number">+1.500h</span>
+            <p class="metric-label">Imersão Full-Stack</p>
+            <p class="metric-desc">Intenso desenvolvimento prático e conceitual certificado pela Trybe.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- AREAS OF SPECIALIZATION -->
+    <section class="specialization section-padding" aria-labelledby="spec-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="spec-title">Áreas de Especialização</h2>
+          <p class="section-description">Soluções arquitetadas com pragmatismo técnico e foco em gerar resultados
+            sustentáveis para o negócio.</p>
+        </div>
+
+        <div class="cards-grid">
+
+          <!-- Card 1: Backend -->
+          <div class="card" id="spec-card-backend">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                <line x1="6" y1="18" x2="6.01" y2="18"></line>
+              </svg>
+            </div>
+            <h3 class="card-title">Sistemas Backend Distribuídos</h3>
+            <p class="card-text">Modelagem utilizando Node.js e NestJS sob as diretrizes de DDD (Domain-Driven Design) e
+              Arquitetura Hexagonal. Comunicação orientada a eventos usando Apache Kafka e RabbitMQ.</p>
+          </div>
+
+          <!-- Card 2: IA -->
+          <div class="card" id="spec-card-ai">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                </path>
+                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+              </svg>
+            </div>
+            <h3 class="card-title">Engenharia de IA Aplicada</h3>
+            <p class="card-text">Desenvolvimento de agentes conversacionais inteligentes com LangGraph e LangChain.
+              Implementação de sistemas RAG otimizados com busca vetorial pgvector, controle de tokens e moderação.</p>
+          </div>
+
+          <!-- Card 3: Cloud & DevOps -->
+          <div class="card" id="spec-card-cloud">
+            <div class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">Cloud Native & Serverless</h3>
+            <p class="card-text">Provisionamento de infraestrutura escalável baseada em AWS Lambda, API Gateway e
+              DynamoDB. Integração contínua (CI/CD) automatizada com GitOps (ArgoCD) e monitoramento de observabilidade.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p>&copy; 2026 Matheus Mendes. Todos os direitos reservados. Projeto Acadêmico.</p>
+      <nav class="footer-nav" aria-label="Menu Rodapé">
+        <a href="index.html" class="footer-link">Início</a>
+        <a href="sobre.html" class="footer-link">Sobre Mim</a>
+        <a href="projetos.html" class="footer-link">Brag Document</a>
+        <a href="contato.html" class="footer-link">Contato</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
